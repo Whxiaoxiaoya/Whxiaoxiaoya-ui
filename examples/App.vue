@@ -1,22 +1,10 @@
 <template>
-  <div id="app">
-    <v-switch v-model="openShow"></v-switch>
-    <v-input v-model="inputValue" placeholder="请输入lll" clearable></v-input>
-  </div>
+  <div>我是页面</div>
 </template>
 
 <script>
-export default {
-  name: "App",
-  data() {
-    return {
-      openShow: false,
-      inputValue: "lll"
-    };
-  },
-  methods: {}
-};
+export default {};
 </script>
 
-<style lang="scss">
+<style>
 </style>
